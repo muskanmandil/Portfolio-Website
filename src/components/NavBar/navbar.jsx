@@ -3,9 +3,8 @@ import React from "react";
 import "./navbar.css";
 import {Link} from 'react-scroll'
 
-import logo from "../../assets/logo.png";
-import contactImg from "../../assets/contact.png";
-import menu from '../../assets/menu.png'
+// import contactImg from "../../assets/contact.png";
+// import menu from '../../assets/menu.png'
 
 const Navbar = () => {
   // const [showMenu, setShowMenu] = useState(false);
