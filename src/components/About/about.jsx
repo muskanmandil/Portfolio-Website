@@ -9,7 +9,7 @@ import sendIcon from "../../assets/send.svg";
 const About = () => {
   return (
     <section id="about">
-      <img src={profileImg} alt="profile image" className="profileImg" />
+      <img src={profileImg} alt="profile" className="profileImg" />
       <div className="aboutText">
         <p className="hello">👋🏻 Hello I'm</p>
         <p className="myName">Muskan Mandil</p>
