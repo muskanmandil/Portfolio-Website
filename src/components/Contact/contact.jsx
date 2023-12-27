@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import emailjs, { send } from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 import Walmart from '../../assets/walmart.png'
 import Adobe from '../../assets/adobe.png'
