@@ -1,0 +1,126 @@
+.projectCard {
+  background: var(--100);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 30vw;
+  max-width: 24rem;
+  max-height: 26.8rem;
+}
+
+.projectImg {
+  width: calc(30vw - 3rem);
+  max-width: 21rem;
+  height: 14.5vw;
+  max-height: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectLink {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 0.75rem;
+  background: var(--300);
+  cursor: pointer;
+}
+
+.visitIcon {
+  height: 1rem;
+}
+
+.projectImg:hover {
+  cursor: pointer;
+}
+
+.projectImg:hover .projectLink {
+  visibility: visible;
+  transition-property: visibility;
+  transition-delay: 200ms;
+}
+
+.projectCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--700);
+}
+
+.projectRepoLink {
+  text-decoration: underline;
+}
+
+.projectRepoLink:hover {
+  color: var(--900);
+}
+
+.projectDesc {
+  font-size: 1rem;
+}
+
+.projectTechs {
+  font-size: 0.9rem;
+}
+
+.techTitle {
+  font-weight: 600;
+  color: var(--900);
+}
+
+@media screen and (min-width: 1440px){
+    .projectImg {
+        background-size: 21rem 13rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+  .projectCard {
+    width: 50vw;
+    max-height: 27rem;
+    max-width: 32rem;
+  }
+
+  .projectImg {
+    width: calc(50vw - 3rem);
+    background-size: calc(50vw - 3rem) 22vw !important;
+    height: 22vw;
+    max-height: 14rem;
+    max-width: 29rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .projectCard {
+    width: 75vw;
+    max-width: 30rem;
+    max-height: 32rem;
+  }
+
+  .projectImg {
+    width: calc(75vw - 3rem);
+    max-width: 27rem;
+    height: 40vw;
+    max-height: 16rem;
+    background-size: calc(75vw - 3rem) 40vw !important;
+  }
+
+  .projectCardHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+}

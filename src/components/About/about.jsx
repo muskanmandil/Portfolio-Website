@@ -13,7 +13,7 @@ const About = () => {
       <div className="aboutText">
         <p className="hello">👋🏻 Hello I'm</p>
         <p className="myName">Muskan Mandil</p>
-        <p className="role">DESIGNER + DEVELOPER</p>
+        <p className="role">🎨DESIGNER + 💻DEVELOPER</p>
         <p className="aboutPara">
           I love creating beautiful user-interfaces and passionate towards
           developing them. I am well versed in technologies ranging from Figma,
