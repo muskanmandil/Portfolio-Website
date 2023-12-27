@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: transparent;
+    /* background: transparent; */
     font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background: rgb(30, 30, 30);
-    color: white;
+    background: var(--100);
     overflow: hidden;
     overflow-y: scroll;
+}
+
+:root {
+    --100: #ECE0D14D;
+    --300: #DBC1AC;
+    --500: #967259;
+    --700: #634832;
+    --900: #38220F;
 }
