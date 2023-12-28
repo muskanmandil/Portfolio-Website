@@ -31,9 +31,9 @@ const Contact = () => {
             <textarea className='msg' name="message" rows="5" placeholder="Your Message"></textarea>
             <button type='submit' value='send' className="submitBtn">Submit</button>
             <div className="socialMediaIconWrapper">
-                <img src={linkedin} alt="linkedin" className="socialMediaIcon" />
-                <img src={github} alt="github" className="socialMediaIcon" />
-                <img src={instagram} alt="instagram" className="socialMediaIcon" />
+                <a href="https://www.linkedin.com/in/muskan-mandil/"><img src={linkedin} alt="linkedin" className="socialMediaIcon" /></a>
+                <a href="https://github.com/muskanmandil"><img src={github} alt="github" className="socialMediaIcon" /></a>
+                <a href="https://www.instagram.com/muskan.mandil/"><img src={instagram} alt="instagram" className="socialMediaIcon" /></a>
             </div>
         </form>
     </section>

@@ -14,6 +14,7 @@ body {
 }
 
 :root {
+    --original100: #ECE0D1;
     --100: #ECE0D14D;
     --300: #DBC1AC;
     --500: #967259;

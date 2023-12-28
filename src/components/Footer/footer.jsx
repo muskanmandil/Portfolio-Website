@@ -4,9 +4,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className='footer'>
-        Copyrigth &#169; 2023 Smith Williams. All right recieved.
+      Made with ❤️ by Muskan Mandil
     </footer>
   )
 }
 
-export default Footer
+export default Footer;

@@ -30,7 +30,7 @@ const About = () => {
               />
             </button>
           </Link>
-          <Link>
+          <Link to="contact" offset={-100}>
             <button className="contactBtn">
               Get in Touch
               <img src={sendIcon} alt="send Icon" className="sendIcon" />

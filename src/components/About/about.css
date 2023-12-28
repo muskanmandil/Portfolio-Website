@@ -64,6 +64,7 @@
     border-radius: 0.5rem;
     background: var(--700);
     font-size: 1rem;
+    cursor: pointer;
 }
 
 .downloadIcon, .sendIcon{
