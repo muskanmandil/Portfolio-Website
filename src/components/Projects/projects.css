@@ -1,20 +1,21 @@
 #projects {
-    max-height: calc(100vh - 2.5rem);
+    max-height: calc(100vh - 5rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 5rem 0 1rem 0;
+    padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .projectsTitle{
     font-size: 3rem;
     color: var(--900);
     text-align: center;
+    font-weight: 500;
 }
 
 .projectsCardWrapper{
@@ -28,4 +29,15 @@
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (max-width: 540px){
+    #projects{
+        gap: 1.5rem;
+    }
+
+    .projectsTitle{
+        font-size: 2.5rem;
+    }
+    
 }

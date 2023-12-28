@@ -1,0 +1,37 @@
+.skillCard {
+    text-align: center;
+}
+
+.skillCardImg {
+    width: 10vw;
+    max-width: 9rem;
+}
+
+.skillName {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: var(--700);
+}
+
+@media screen and (max-width:1240px){
+    .skillCardImg{
+        width: 12vw;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    .skillCardImg{
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width:540px){
+    .skillCardImg{
+        width: 22vw;
+    }
+    .skillName{
+        margin-top: 0.1rem;
+    }
+}  

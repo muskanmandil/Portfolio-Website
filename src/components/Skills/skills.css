@@ -1,73 +1,49 @@
 #skills{
-    overflow: hidden;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    max-height: calc(100vh - 5rem);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
+    gap: 4rem;
+    padding: 2rem 0;
+    overflow: hidden;
 }
 
-.skillTitle{
+.skillsTitle {
     font-size: 3rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    color: var(--900);
+    text-align: center;
+    font-weight: 500;
 }
 
-.skillDesc{
-    font-weight: 400;
-    font-size: 1rem;
-    max-width: 50rem;
-    padding: 0 2rem;
+.skillsCardWrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 3rem;
 }
 
-.skillBars {
-    margin: 1.5rem;
-    width: 100vw;
-    max-width: 80%;
-    text-align: left;
-}
-
-.skillBar{
-    display: flex;
-    margin: 1rem;
-    padding: 1.5rem 2rem;
-    border-radius: 0.5rem;
-    background: rgb(50, 50, 50);
-}
-
-.skillBarImg {
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
-}
-
-.skillBarText>p{
-    font-size: 0.9rem;
-    font-weight: 300;
-}
-
-@media screen and (max-width: 720px) {
-    .skillBar>p{
-        font-size: 2vw;;
+@media screen and (max-width:900px) {
+    #skills{
+        gap: 2.5rem;
     }
-    
+    .skillsCardWrapper{
+        grid-template-columns: auto auto auto auto;
+    }    
 }
 
-@media screen and (max-width: 480px) {
-    .skillBar>p{
-        font-size: 3vw;;
+@media screen and (max-width: 540px){
+    #skills{
+        gap: 1.5rem;
     }
-    .skillBarImg {
-        height: 2.25rem;
-        width: 2.25rem;
+
+    .skillsTitle {
+        font-size: 2.5rem;
     }
-    .skillBarText>h2{
-        font-size: 5vw;
+
+    .skillsCardWrapper{
+        grid-template-columns: auto auto auto;
+        gap: 1.5rem;
     }
     
 }
