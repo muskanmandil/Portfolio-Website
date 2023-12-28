@@ -1,88 +1,71 @@
-#contactPage{
-    min-height: calc(100vh - 5rem);
+#contact{
+    max-height: calc(100vh - 5rem);
     width: 100vw;
-    max-width: 65rem;
+    max-width: 75rem;
     margin: 0 auto;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding: 2rem 0;
+    gap: 1rem;   
 }
 
-#clients {
-    padding: 2rem;
-}
-
-.contactPageTitle {
+.contactTitle {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    color: var(--900);
+    text-align: center;
+    font-weight: 500;
 }
 
-.clientDesc {
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.clientImgs {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.clientImg{
-    object-fit: cover;
-    width: 23%;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-}
-
-.contactDesc{
-    padding: 1rem;
-    font-size: medium;
-    font-weight: 300;
-}
-
-.contactForm {
-    margin: 1rem;
+.contactForm{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 90vw;
+    gap: 0.5rem;
+    width: 100vw;
     max-width: 60rem;
 }
 
-.name,.email,.msg{
-    font-size: medium;
-    width: 100%;
-    max-width: 40rem;
-    margin: 0.5rem;
+.name, .email, .msg {
+    font-size: 1.25rem;
     padding: 0.5rem 1rem;
-    color: white;
+    width: 100%;
+    max-width:40rem;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40,40,40);
+    background: #ECE0D1;
+    color: var(--700)
+}
+
+:focus{
+    outline-color: var(--700);
 }
 
 .submitBtn {
-    background: white;
+    color: white;
     border: none;
+    padding: 0.75rem 2.5rem;
     border-radius: 0.5rem;
-    margin: 2rem;
-    padding: 0.75rem 3.5rem;
+    background: var(--700);
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
-
-.links {
+.socialMediaIconWrapper{
+    width: 100%;
+    max-width: 40rem;
     display: flex;
-    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
 }
 
-.link {
-    object-fit: cover;
-    height: 3rem;
+.socialMediaIcon {
     width: 3rem;
-    margin: 0 0.75rem;
+}
+
+@media screen and (max-width: 540px){
+    .contactTitle{
+        font-size: 2.5rem;
+    } 
 }
