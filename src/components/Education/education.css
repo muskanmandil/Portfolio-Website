@@ -1,0 +1,26 @@
+#education{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    /*max-height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0 4rem 0;
+    overflow: hidden; */
+}
+
+.educationTitle {
+    font-size: 3rem;
+    color: var(--900);
+    text-align: center;
+    font-weight: 500;
+    /* margin-bottom: 2rem; */
+}
+
+.educationTimeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+

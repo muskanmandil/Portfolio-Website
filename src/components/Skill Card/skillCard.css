@@ -4,19 +4,19 @@
     align-items: center;
 }
 
-.skillCardImg {
+/* .skillCardImg {
     width: 10vw;
-    max-width: 9rem;
-}
+    max-width: 9rem; 
+} */
 
 .skillName {
-    font-size: 1.25rem;
-    margin-top: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
     font-weight: 500;
     color: var(--700);
 }
 
-@media screen and (max-width:1240px){
+/* @media screen and (max-width:1240px){
     .skillCardImg{
         width: 12vw;
     }
@@ -36,4 +36,4 @@
     .skillName{
         margin-top: 0.1rem;
     }
-}  
+}   */

@@ -11,56 +11,56 @@ import git from "./assets/git.svg";
 import github from "./assets/github.svg";
 import figma from "./assets/figma.svg";
 
+const programming_languages = [{
+    img: cpp,
+    name: "C++"
+},
+{
+    img: java,
+    name: "Java"
+}]
+const platforms = [{
+    img: git,
+    name: "Git"
+},
+{
+    img: github,
+    name: "Github"
+},
+{
+    img: vscode,
+    name: "VS Code"
+},
+{
+    img: figma,
+    name: "Figma"
+}]
+const development_technologies = [{
+    img: html,
+    name: "HTML"
+},
+{
+    img: css,
+    name: "CSS"
+},
+{
+    img: js,
+    name: "Javascript"
+},
+{
+    img: bootstrap,
+    name: "Bootstrap"
+},
+{
+    img: jquery,
+    name: "Jquery"
+},
+{
+    img: react,
+    name: "Reactjs"
+}]
 
-const all_skills = [
-    {
-        img: cpp,
-        name: "C++"
-    },
-    {
-        img: java,
-        name: "Java"
-    },
-    {
-        img: html,
-        name: "HTML"
-    }, 
-    {
-        img: css,
-        name: "CSS"
-    },
-    {
-        img: js,
-        name: "Javascript"
-    },
-    {
-        img: bootstrap,
-        name: "Bootstrap"
-    },
-    {
-        img: jquery,
-        name: "Jquery"
-    },
-    {
-        img: react,
-        name: "Reactjs"
-    },
-    {
-        img: git,
-        name: "Git"
-    },
-    {
-        img: github,
-        name: "Github"
-    },
-    {
-        img: vscode,
-        name: "VS Code"
-    },
-    {
-        img: figma,
-        name: "Figma"
-    }
-]
 
-export default all_skills;
+export {programming_languages};
+export {development_technologies};
+export {platforms};
