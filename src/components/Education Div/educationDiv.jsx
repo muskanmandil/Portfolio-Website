@@ -3,7 +3,8 @@ import "./educationDiv.css";
 
 const EducationDiv = (props) => {
   return (
-    <div key={index} className={`${index%2== 0 ? 'right educationDiv' : 'educationDiv'} `}>
+    // <div key={index} className={`${index%2== 0 ? 'right educationDiv' : 'educationDiv'} `}>
+    <div className="educationDiv">
       <div className="educationTextContent">
         <h1 className="degreeTitle">{props.degree}</h1>
         <h2 className="degreeInstitute">{props.institute}</h2>
