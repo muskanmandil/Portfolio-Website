@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 import profileImg from "../../assets/profileImg.png";
 import downloadIcon from "../../assets/download.svg";
+import Resume from "../../assets/resume.pdf";
 import sendIcon from "../../assets/send.svg";
 
 const About = () => {
@@ -20,16 +21,14 @@ const About = () => {
           Web Development and C++.
         </p>
         <div className="buttons">
-          <Link>
-            <button className="resumeBtn">
-              Resume
-              <img
-                src={downloadIcon}
-                alt="download Icon"
-                className="downloadIcon"
-              />
-            </button>
-          </Link>
+          <a className="resumeBtn" href={Resume} download="MuskanMandil_Resume" >
+            Resume
+            <img
+              src={downloadIcon}
+              alt="download Icon"
+              className="downloadIcon"
+            />
+          </a>
           <Link to="contact" offset={-100}>
             <button className="contactBtn">
               Get in Touch
