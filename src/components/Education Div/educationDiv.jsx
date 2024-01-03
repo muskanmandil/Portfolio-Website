@@ -10,7 +10,7 @@ const EducationDiv = (props) => {
         <h2 className="degreeInstitute">{props.institute}</h2>
         <p className="degreeGrades">{props.grades}</p>
       </div>
-      <img src={props.logo} alt={props.institute} className="logo" />
+      <img src={props.logo} alt={props.institute} className="instituteLogo" />
     </div>
   );
 };
