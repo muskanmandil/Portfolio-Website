@@ -2,11 +2,12 @@
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    /*max-height: calc(100vh - 5rem);
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0;
+    /*max-height: calc(100vh - 5rem);
+    
     overflow: hidden; */
 }
 
@@ -21,6 +22,29 @@
 .educationTimeline {
     display: flex;
     flex-direction: column;
+    position: relative;
     gap: 3rem;
+    padding: 0 2rem;
 }
 
+.educationTimeline::after {
+    background-color: var(--300);
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+
+@media screen and (max-width:1040px) {
+    #education{
+        gap:2rem;
+    }
+    .educationTimeline{
+        align-items: center;
+        gap: 4rem;
+    }
+    .educationTimeline::after {
+        display: none;
+    }  
+}

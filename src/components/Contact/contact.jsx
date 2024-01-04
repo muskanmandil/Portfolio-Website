@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
 import instagram from '../../assets/instagram.svg'
+import twitter from '../../assets/twitter.svg'
 
 const Contact = () => {
   const form = useRef();
@@ -34,6 +35,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/muskan-mandil/"><img src={linkedin} alt="linkedin" className="socialMediaIcon" /></a>
                 <a href="https://github.com/muskanmandil"><img src={github} alt="github" className="socialMediaIcon" /></a>
                 <a href="https://www.instagram.com/muskan.mandil/"><img src={instagram} alt="instagram" className="socialMediaIcon" /></a>
+                <a href="https://twitter.com/_muskan05"><img src={twitter} alt="twitter" className="socialMediaIcon" /></a>
             </div>
         </form>
     </section>

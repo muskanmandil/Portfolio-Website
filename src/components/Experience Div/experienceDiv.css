@@ -1,67 +1,74 @@
-.educationDiv{
+.experienceDiv{
     display: flex;
     /* align-items: flex-start; */
     justify-content: space-between;
+    gap: 1.5rem;
     position: relative;
-    width: 54%;
+    width: 56%;
     z-index: 2;
 }
-.educationDiv:nth-child(even){
+.experienceDiv:nth-child(even){
     align-self: flex-end;
     flex-direction: row-reverse;
 }
-.instituteLogo {
+.companyLogo {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
 }
-.educationTextContent {
+.experienceTextContent {
     display: flex;
     flex-direction: column;
     gap:0.25rem;
 }
 
-.degreeTitle{
+.experiencePosition{
     font-size: 1.5rem;
     color: var(--900);
     font-weight: 600;
 }
 
-.degreeInstitute {
+.experienceCompany {
     font-size: 1.2rem;
-    color: var(--700);
-    font-weight: 400;
-}
-
-.degreeGrades {
-    font-size: 1rem;
     color: var(--700);
     font-weight: 500;
 }
 
+.experienceDuration {
+    font-size: 0.9rem;
+    color: var(--900);
+    font-weight: 400;
+}
 
-@media screen and (max-width:1040px) {
-    .educationDiv {
+.experienceSummary {
+    font-size: 1rem;
+    color: var(--500);
+    font-weight: 500;
+    line-height: 2;
+}
+
+@media screen and (max-width:900px) {
+    .experienceDiv {
         width: 90%;
         gap:0;
     }
-    .educationTextContent{
+    .experienceTextContent{
         width: 70%;
     }
-    .educationDiv:nth-child(even){
+    .experienceDiv:nth-child(even){
         align-self: center;
     }  
 }
 
 @media screen and (max-width:680px){
-    .educationDiv, .educationDiv:nth-child(even){
+    .experienceDiv, .experienceDiv:nth-child(even){
         flex-direction: column-reverse;
         gap: 1rem;
     }
-    .educationTextContent{
+    .experienceTextContent{
         width: 100%;
     }
-    .instituteLogo{
+    .companyLogo{
         height: 5rem;
         width: 5rem;
     }

@@ -74,12 +74,17 @@
 @media screen and (max-width: 540px){
     .contactTitle{
         font-size: 2.5rem;
-    } 
+    }
+    .socialMediaIconWrapper{
+        gap: 3rem;
+    }
 }
 
 @media screen and (max-width:480px) {
     .name, .email, .msg {
         max-width: 20rem;
     } 
-    
+    .socialMediaIconWrapper{
+        gap: 2rem;
+    }
 }

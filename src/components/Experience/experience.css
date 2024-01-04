@@ -2,6 +2,10 @@
     width:100%;
     max-width:75rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
 }
 
 .experienceTitle{
@@ -9,5 +13,34 @@
     font-weight: 500;
     color: var(--900);
     text-align: center;
-    padding: 2rem;
+}
+
+.experienceTimeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 3rem;
+    padding: 0 2rem;
+}
+
+.experienceTimeline::after {
+    background-color: var(--300);
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+
+@media screen and (max-width:900px) {
+    #experience{
+        gap:2rem;
+    }
+    .experienceTimeline{
+        align-items: center;
+        gap: 4rem;
+    }
+    .experienceTimeline::after {
+        display: none;
+    }  
 }
