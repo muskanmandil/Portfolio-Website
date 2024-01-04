@@ -1,0 +1,13 @@
+#experience{
+    width:100%;
+    max-width:75rem;
+    margin: 0 auto;
+}
+
+.experienceTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--900);
+    text-align: center;
+    padding: 2rem;
+}
