@@ -29,7 +29,7 @@ const About = () => {
               className="downloadIcon"
             />
           </a>
-          <Link to="contact" offset={-100}>
+          <Link to="contact" offset={-100} smooth={true}>
             <button className="contactBtn">
               Get in Touch
               <img src={sendIcon} alt="send Icon" className="sendIcon" />
