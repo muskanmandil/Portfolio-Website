@@ -11,6 +11,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <h1 className="skillsTitle">Skills</h1>
+      <div className="skillsBody">
       <div className="skillsTypeContainer">
         <h3 className="skillsType">Programming Languages</h3>
         <div className="skillsWrapper">
@@ -34,6 +35,7 @@ const Skills = () => {
             return <SkillCard img={element.img} name={element.name} />;
           })}
         </div>
+      </div>
       </div>
     </section>
   );

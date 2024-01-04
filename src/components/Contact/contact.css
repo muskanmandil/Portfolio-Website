@@ -1,5 +1,5 @@
 #contact{
-    max-height: calc(100vh - 5rem);
+    /* max-height: calc(100vh - 5rem); */
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -41,7 +41,7 @@
     outline-color: var(--700);
 }
 
-.submitBtn {
+.sendBtn {
     color: white;
     border: none;
     padding: 0.75rem 2.5rem;
@@ -79,7 +79,7 @@
 
 @media screen and (max-width:480px) {
     .name, .email, .msg {
-        max-width: 24rem;
+        max-width: 20rem;
     } 
     
 }

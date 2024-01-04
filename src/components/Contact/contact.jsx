@@ -29,7 +29,7 @@ const Contact = () => {
             <input type="text" className="name" placeholder="Your Name" name="from_name"/>
             <input type="email" className="email" placeholder="Your Email" name="from_email" />
             <textarea className='msg' name="message" rows="5" placeholder="Your Message"></textarea>
-            <button type='submit' value='send' className="submitBtn">Submit</button>
+            <button type='submit' value='send' className="sendBtn">Send Message</button>
             <div className="socialMediaIconWrapper">
                 <a href="https://www.linkedin.com/in/muskan-mandil/"><img src={linkedin} alt="linkedin" className="socialMediaIcon" /></a>
                 <a href="https://github.com/muskanmandil"><img src={github} alt="github" className="socialMediaIcon" /></a>

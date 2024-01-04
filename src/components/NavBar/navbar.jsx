@@ -1,43 +1,38 @@
-import React from "react";
-// import { useState}
+import React, {useState} from "react";
 import "./navbar.css";
 import {Link} from 'react-scroll'
 
 // import contactImg from "../../assets/contact.png";
-// import menu from '../../assets/menu.png'
+import menu from '../../assets/menu.svg'
 
 const Navbar = () => {
-  // const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="navbar">
+
+      {/* Logo */}
       <span className="logo">MuskanMandil</span>
+
+      {/* Desktop Menu */}
       <div className="desktopMenu">
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">About</Link>
         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">Projects</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">Skills</Link>
-        <Link activeClass='active' to='education' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">Education</Link>
+        <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">Experience</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuLink">Contact</Link>
       </div>
-      {/* <button className="desktopMenuBtn" onClick={()=>{
-        document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
-      }}>
-        <img src={contactImg} alt="" className="desktopMenuIcon" />{" "}
-        Contact Me
-      </button> */}
 
-      {/* <img src={menu} alt="Menu" className="mobMenu" /> */}
-      {/* onClick={()=>setShowMenu(!showMenu)}  */}
-      {/* <div className="navMenu" > */}
-      {/* style={{display: showMenu? 'flex' : 'none'}} */}
-        {/* <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="listItem" >Home</Link>
-        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" >About</Link>
-        <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="listItem" >Portfolio</Link>
-        <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className="listItem" >Clients</Link>
-        <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="listItem" >Contact</Link>
-      </div> */}
+      {/* Mobile Menu Icon */}
+      <img src={menu} alt="Menu" className="mobMenuIcon" onClick={()=>setShowMenu(!showMenu)}/>
 
-      {/* onClick={()=>setShowMenu(false)} */}
-
+      {/* Mobile Menu */}
+      <div className="mobMenu" style={{display: showMenu ? 'flex' : 'none'}} >
+        <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className="mobMenuLink" onClick={()=>setShowMenu(false)}>About</Link>
+        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className="mobMenuLink" onClick={()=>setShowMenu(false)}>Projects</Link>
+        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className="mobMenuLink" onClick={()=>setShowMenu(false)}>Skills</Link>
+        <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-100} duration={500} className="mobMenuLink" onClick={()=>setShowMenu(false)}>Experience</Link>
+        <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className="mobMenuLink" onClick={()=>setShowMenu(false)}>Contact</Link>
+      </div>
 
     </nav>
   );
