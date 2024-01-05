@@ -35,11 +35,29 @@
 }
 
 .role {
+    width: fit-content;
+    margin: 0 auto;
+
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin-bottom: 1.2rem;
     color: var(--700);
+
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid var(--500);
+    animation: typing 3s steps(20), blink-caret 0.5s infinite;
 }
+
+@keyframes typing {
+    from {width: 0 ;}
+    to { width: 100%;} 
+}
+
+@keyframes blink-caret {
+    from { border-color: transparent; }
+    to { border-color: var(--500); }
+  }
 
 .aboutPara{
     font-size: 1rem;

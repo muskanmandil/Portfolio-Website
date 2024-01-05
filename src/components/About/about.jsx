@@ -21,7 +21,7 @@ const About = () => {
           Web Development and C++.
         </p>
         <div className="buttons">
-          <a className="resumeBtn" href={Resume} download="MuskanMandil_Resume" >
+          <a className="resumeBtn" href={Resume} download="MuskanMandil_Resume">
             Resume
             <img
               src={downloadIcon}
