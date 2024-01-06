@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 import profileImg from "../../assets/profileImg.png";
 import downloadIcon from "../../assets/download.svg";
-import Resume from "../../assets/resume.pdf";
+import MuskanMandil_Resume from "../../assets/MuskanMandil_Resume.pdf";
 import sendIcon from "../../assets/send.svg";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
           Web Development and C++.
         </p>
         <div className="buttons">
-          <a className="resumeBtn" href={Resume} download="MuskanMandil_Resume">
+          <a className="resumeBtn" href={MuskanMandil_Resume} >
             Resume
             <img
               src={downloadIcon}
