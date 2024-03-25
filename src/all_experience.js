@@ -1,14 +1,22 @@
-import sih from "./assets/sih.jpg";
-import cohesive from "./assets/cohesive.jpeg"
+import sih from "./assets/icons/sih.jpg";
+import cohesive from "./assets/icons/cohesive.jpeg"
+import reliableai from "./assets/icons/reliableai.png"
 
 const all_experience = [{
+    logo: reliableai ,
+    position: "UI & UX Intern",
+    company: "thereliable.ai",
+    duration: "Mar 2024 - Present",
+    summary: ["Designed user-centric AI-driven database chat interface software prioritizing intuitive interaction.",
+        "Implemented frontend and integration for seamless user experience."]
+},{
     logo: sih ,
-    position: "Team 8bit Squad [UI/UX]",
+    position: "Team 8bit Squad [UI/UX & Frontend]",
     company: "Smart India Hackathon 2023",
     duration: "Sep 2023 - Dec 2023",
-    summary: ["Our team emerged as the Top 5 teams in the nation-wide Smart India Hackathon 2023",
-    "We worked on the Problem Statement 1465: Build a Curriculum Design Portal for AICTE",
-    "I worked as UI/UX Designer and designed the complete portal as well as a feedback application after brainstorming ideas with my team"
+    summary: ["Ranked among the Top 5 teams nationwide in Smart India Hackathon 2023.",
+    "Contributed as UI/UX Designer & frontend developer for AICTE’s Curriculum Design Portal (PS 1465).",
+    `Led design ideation sessions and developed a comprehensive portal interface in collaboration with the team. (<a href="https://bit.ly/3IsFLH2" target="_blank">Prototype</a>)`
     
     ]
 },{
@@ -17,14 +25,11 @@ const all_experience = [{
     company: "Cohesive Health",
     duration: "Jun 2023 - Sep 2023",
     summary: [
-        "Designed three softwares to build the company’s product in the healthcare sector which will streamline the system between their stakeholders: patients, doctors and labs.",
-        `Designed and coded the company’s responsive website as well (https://cohesivehealth.in/)`,
-        "Worked on Figma and applied UI / UX Skills to develop mobile and web applications.",
-        "First Intern to join the company."
+        "Pioneered product design of three softwares to build the company’s product in the healthcare sector streamlining the system between their stakeholders: patients, doctors and labs.",
+        `Designed and developed comprehensive company’s website as well (<a href="https://cohesivehealth.in" target="_blank">https://cohesivehealth.in</a>)`,
+        `Doctor's App: <a href="https://bit.ly/48JFtpR" target="_blank">Prototype</a>`,
+        `Patient's App: <a href="https://bit.ly/48IxCcc" target="_blank">Prototype</a>`
     ]
 }]
 
 export default all_experience;
-
-// Doctor’s App: Prototype",
-//         "Patient’s App: Prototype",

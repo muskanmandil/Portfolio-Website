@@ -2,10 +2,10 @@ import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 
-import linkedin from '../../assets/linkedin.svg'
-import github from '../../assets/github.svg'
-import instagram from '../../assets/instagram.svg'
-import twitter from '../../assets/twitter.svg'
+import linkedin from '../../assets/icons/linkedin.svg'
+import github from '../../assets/icons/github.svg'
+import instagram from '../../assets/icons/instagram.svg'
+import twitter from '../../assets/icons/twitter.svg'
 
 const Contact = () => {
   const form = useRef();

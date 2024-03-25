@@ -1,11 +1,11 @@
-import GoogleKeep from './assets/GoogleKeep.png'
-import CurriculumDesignPortal from './assets/curriculumDesignPortal.png'
-import Game2048 from './assets/2048Game.png'
-import todoList from './assets/todoList.png'
-import DrumKit from './assets/DrumKit.png'
-import restaurantWebsite from './assets/restaurantWebsite.png'
-import bikeRepairWebsite from './assets/bikeRepairWebsite.png'
-import Calculator from './assets/Calculator.png'
+import GoogleKeep from './assets/images/GoogleKeep.png'
+import CurriculumDesignPortal from './assets/images/curriculumDesignPortal.png'
+import Game2048 from './assets/images/2048Game.png'
+import todoList from './assets/images/todoList.png'
+import DrumKit from './assets/images/DrumKit.png'
+import restaurantWebsite from './assets/images/restaurantWebsite.png'
+import bikeRepairWebsite from './assets/images/bikeRepairWebsite.png'
+import Calculator from './assets/images/Calculator.png'
 
 
 const all_projects = [
@@ -14,7 +14,7 @@ const all_projects = [
         liveLink: "https://muskanmandil.github.io/Google-Keep-Clone",
         title: "Google Keep Clone",
         repoLink: "https://github.com/muskanmandil/Google-Keep-Clone",
-        desc: "Web Clone of Google Keep Notes Application. It has the features of Note Taking, Edit them and Delete them.",
+        desc: "A replica of Google Keep Notes Application which allow users to create, edit and delete notes, mimicking the features of the original application.",
         tech: "HTML, CSS, Javascript"
     },
     {
@@ -22,15 +22,15 @@ const all_projects = [
         liveLink: "https://www.figma.com/proto/vYlG2GA3juGoQdpqGLxYAN/Curriculum-Design-Portal?page-id=38%3A87&type=design&node-id=206-7566&viewport=37%2C-8%2C0.04&t=BAKnevpzlrE2IcbM-1&scaling=contain&mode=design",
         title: "Curriculum Design Portal",
         repoLink: "",
-        desc: "Emerged as the Top 5 teams in the nation-wide Smart India Hackathon 2023. I designed the complete portal after brainstorming ideas with my team.",
-        tech: "UI/UX Design, Figma"
+        desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer & frontend developer. Led design ideation sessions in collaboration with the team.",
+        tech: "UI/UX Design, Figma, React.js"
     },
     {
         img: Game2048,
         liveLink: "https://muskanmandil.github.io/2048-Game",
         title: "2048 Game",
         repoLink: "https://github.com/muskanmandil/2048-Game",
-        desc: "Clone of the very famous 2048 Game.Respond to arrow keys, and update score on every tile merge.",
+        desc: "Cloned the famous 2048 Game. Respond to arrow keys, and update score on every tile merge.",
         tech: "HTML, CSS, Javascript"
     },
     {

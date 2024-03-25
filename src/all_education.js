@@ -1,11 +1,11 @@
-import ietdavv from "./assets/ietdavv.png";
-import gujaratisamaj from "./assets/gujaratisamaj.jpg"
+import ietdavv from "./assets/icons/ietdavv.png";
+import gujaratisamaj from "./assets/icons/gujaratisamaj.jpg"
 
 const all_education = [{
     logo: ietdavv ,
     degree: "B.E. (Information Technology)",
     institute: "Institute of Engineering and Technology, DAVV",
-    grades: ""
+    grades: "CGPA: 7.11"
 },{
     logo: gujaratisamaj ,
     degree: "Higher Secondary Education",

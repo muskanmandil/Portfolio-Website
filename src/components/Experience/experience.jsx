@@ -9,9 +9,10 @@ const Experience = () => {
     <section id="experience">
       <h1 className="experienceTitle">Experience</h1>
       <div className="experienceTimeline">
-        {all_experience.map((element) => {
+        {all_experience.map((element, idx) => {
           return (
             <ExperienceDiv
+              key={idx}
               logo={element.logo}
               position={element.position}
               company={element.company}

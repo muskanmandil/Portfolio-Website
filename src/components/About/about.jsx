@@ -2,10 +2,10 @@ import React from "react";
 import "./about.css";
 import { Link } from "react-scroll";
 
-import profileImg from "../../assets/profileImg.png";
-import downloadIcon from "../../assets/download.svg";
-import MuskanMandil_Resume from "../../assets/MuskanMandil_Resume.pdf";
-import sendIcon from "../../assets/send.svg";
+import profileImg from "../../assets/images/profileImg.png";
+import downloadIcon from "../../assets/icons/download.svg";
+import MuskanMandil_Resume_2024 from "../../assets/MuskanMandil_Resume_2024.pdf";
+import sendIcon from "../../assets/icons/send.svg";
 
 const About = () => {
   return (
@@ -16,12 +16,11 @@ const About = () => {
         <p className="myName">Muskan Mandil</p>
         <p className="role">🎨DESIGNER + 💻DEVELOPER</p>
         <p className="aboutPara">
-          I love creating beautiful user-interfaces and passionate towards
-          developing them. I am well versed in technologies ranging from Figma,
-          Web Development and C++.
+          I love creating beautiful user interfaces and passionate towards
+          developing them. I am well versed in C++, front-end development and Figma.
         </p>
         <div className="buttons">
-          <a className="resumeBtn" href={MuskanMandil_Resume} >
+          <a className="resumeBtn" href={MuskanMandil_Resume_2024} target="_blank" rel="noreferrer">
             Resume
             <img
               src={downloadIcon}

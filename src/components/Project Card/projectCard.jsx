@@ -1,7 +1,7 @@
 import React from "react";
 import "./projectCard.css";
 
-import visitIcon from '../../assets/visit.svg';
+import visitIcon from '../../assets/icons/visit.svg';
 
 const ProjectCard = (props) => {
   return (

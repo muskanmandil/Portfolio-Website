@@ -34,6 +34,7 @@
     cursor: pointer; 
     padding: 0.5rem; 
     margin-left: 1.5rem; 
+    cursor: pointer;
 }
 
 .desktopMenuLink:hover{
@@ -53,6 +54,7 @@
     object-fit: cover;
     height: 1.8rem;
     color: var(--500);
+    cursor: pointer;
 }
 
 .mobMenu {
@@ -74,10 +76,11 @@
     padding: 0.5rem 3rem;
     margin: 0.25rem;
     background: var(--original100);
+    cursor: pointer;
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     .mobMenuIcon {
         display: flex;
     }

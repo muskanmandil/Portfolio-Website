@@ -4,7 +4,7 @@
     justify-content: space-between;
     gap: 1.5rem;
     position: relative;
-    width: 56%;
+    width: 55%;
     z-index: 2;
 }
 .experienceDiv:nth-child(even){
@@ -12,8 +12,8 @@
     flex-direction: row-reverse;
 }
 .companyLogo {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
 }
 .experienceTextContent {

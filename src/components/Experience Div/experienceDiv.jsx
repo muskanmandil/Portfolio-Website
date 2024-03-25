@@ -10,7 +10,7 @@ const ExperienceDiv = (props) => {
         <h3 className="experienceDuration">{props.duration}</h3>
         <ul className="experienceSummary">
           {props.summary.map((element,idx)=>{
-            return <li>{element}</li>
+            return <li key={idx} dangerouslySetInnerHTML={{ __html: element}} />
           })}
         </ul>
       </div>

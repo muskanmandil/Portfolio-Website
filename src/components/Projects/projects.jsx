@@ -9,8 +9,8 @@ const Projects = () => {
     <section id='projects'>
       <h1 className="projectsTitle">Projects</h1>
       <div className="projectsCardWrapper">
-        {all_projects.map((element)=>{
-          return <ProjectCard img={element.img} liveLink={element.liveLink} title={element.title} repoLink={element.repoLink} desc={element.desc} tech={element.tech} />
+        {all_projects.map((element,idx)=>{
+          return <ProjectCard key={idx} img={element.img} liveLink={element.liveLink} title={element.title} repoLink={element.repoLink} desc={element.desc} tech={element.tech} />
         })}
       </div>
 

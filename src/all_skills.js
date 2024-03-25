@@ -1,15 +1,15 @@
-import cpp from "./assets/c++.svg";
-import java from "./assets/java.svg";
-import vscode from "./assets/vscode.svg";
-import html from "./assets/html.svg";
-import css from "./assets/css.svg";
-import bootstrap from "./assets/bootstrap.svg";
-import js from "./assets/js.svg";
-import jquery from "./assets/jquery.svg";
-import react from "./assets/react.svg";
-import git from "./assets/git.svg";
-import github from "./assets/github.svg";
-import figma from "./assets/figma.svg";
+import cpp from "./assets/icons/c++.svg";
+import java from "./assets/icons/java.svg";
+import vscode from "./assets/icons/vscode.svg";
+import html from "./assets/icons/html.svg";
+import css from "./assets/icons/css.svg";
+import bootstrap from "./assets/icons/bootstrap.svg";
+import js from "./assets/icons/js.svg";
+import jquery from "./assets/icons/jquery.svg";
+import react from "./assets/icons/react.svg";
+import git from "./assets/icons/git.svg";
+import github from "./assets/icons/github.svg";
+import figma from "./assets/icons/figma.svg";
 
 const programming_languages = [{
     img: cpp,
