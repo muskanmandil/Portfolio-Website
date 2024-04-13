@@ -71,17 +71,17 @@ const Contact = () => {
           Send Message
         </button>
         <div className="socialMediaIconWrapper">
-          <a href="https://www.linkedin.com/in/muskan-mandil/">
+          <a href="https://www.linkedin.com/in/muskan-mandil/" target="_blank" rel="noreferrer">
             <img src={linkedin} alt="linkedin" className="socialMediaIcon" />
           </a>
-          <a href="https://github.com/muskanmandil">
+          <a href="https://github.com/muskanmandil" target="_blank" rel="noreferrer">
             <img src={github} alt="github" className="socialMediaIcon" />
           </a>
-          <a href="https://www.instagram.com/muskan.mandil/">
+          <a href="https://www.instagram.com/muskan.mandil/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="instagram" className="socialMediaIcon" />
           </a>
-          <a href="https://twitter.com/_muskan05">
-            <img src={twitter} alt="twitter" className="socialMediaIcon" />
+          <a href="https://twitter.com/muskanmandil">
+            <img src={twitter} alt="twitter" className="socialMediaIcon" target="_blank" rel="noreferer"/>
           </a>
         </div>
       </form>

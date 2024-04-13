@@ -1,3 +1,4 @@
+import ReliableAILandingPage from './assets/images/reliableaiLandingPage.png'
 import GoogleKeep from './assets/images/GoogleKeep.png'
 import CurriculumDesignPortal from './assets/images/curriculumDesignPortal.png'
 import Game2048 from './assets/images/2048Game.png'
@@ -10,6 +11,14 @@ import Calculator from './assets/images/Calculator.png'
 
 const all_projects = [
     {
+        img: ReliableAILandingPage,
+        liveLink: "https://bit.ly/3xvdcX3",
+        title: "Reliable AI Landing Page",
+        repoLink: "",
+        desc: "Crafted landing page for the product website, effectively communicating the value and features of the software to potential users.",
+        tech:"UI/UX Design, Figma",
+    },
+    {
         img: GoogleKeep,
         liveLink: "https://muskanmandil.github.io/Google-Keep-Clone",
         title: "Google Keep Clone",
@@ -19,9 +28,9 @@ const all_projects = [
     },
     {
         img: CurriculumDesignPortal,
-        liveLink: "https://www.figma.com/proto/vYlG2GA3juGoQdpqGLxYAN/Curriculum-Design-Portal?page-id=38%3A87&type=design&node-id=206-7566&viewport=37%2C-8%2C0.04&t=BAKnevpzlrE2IcbM-1&scaling=contain&mode=design",
+        liveLink: "https://bit.ly/curriculum-portal",
         title: "Curriculum Design Portal",
-        repoLink: "",
+        repoLink: "https://github.com/Dev-Sahani/AICTE_CURRICULUM_DESIGN_PORTAL",
         desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer & frontend developer. Led design ideation sessions in collaboration with the team.",
         tech: "UI/UX Design, Figma, React.js"
     },
