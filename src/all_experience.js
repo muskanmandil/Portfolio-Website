@@ -29,8 +29,8 @@ const all_experience = [{
     summary: [
         "Pioneered product design of three softwares to build the company’s product in the healthcare sector streamlining the system between their stakeholders: patients, doctors and labs.",
         `Designed and developed comprehensive company’s website as well (<a href="https://cohesivehealth.in" target="_blank">https://cohesivehealth.in</a>)`,
-        `Doctor's App: <a href="https://bit.ly/48JFtpR" target="_blank">Prototype</a>`,
-        `Patient's App: <a href="https://bit.ly/48IxCcc" target="_blank">Prototype</a>`
+        `Doctor's App: <a href="https://bit.ly/4cRW91F" target="_blank">Prototype</a>`,
+        `Patient's App: <a href="https://bit.ly/43VS34u" target="_blank">Prototype</a>`
     ]
 }]
 

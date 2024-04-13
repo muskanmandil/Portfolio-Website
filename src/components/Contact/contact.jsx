@@ -80,8 +80,8 @@ const Contact = () => {
           <a href="https://www.instagram.com/muskan.mandil/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="instagram" className="socialMediaIcon" />
           </a>
-          <a href="https://twitter.com/muskanmandil">
-            <img src={twitter} alt="twitter" className="socialMediaIcon" target="_blank" rel="noreferer"/>
+          <a href="https://twitter.com/muskanmandil" target="_blank" rel="noreferrer">
+            <img src={twitter} alt="twitter" className="socialMediaIcon" />
           </a>
         </div>
       </form>
