@@ -10,6 +10,7 @@ import react from "./assets/icons/react.svg";
 import git from "./assets/icons/git.svg";
 import github from "./assets/icons/github.svg";
 import figma from "./assets/icons/figma.svg";
+import sql from "./assets/icons/sql.svg"
 
 const programming_languages = [{
     img: cpp,
@@ -18,6 +19,9 @@ const programming_languages = [{
 {
     img: java,
     name: "Java"
+}, {
+    img: sql,
+    name: "SQL"
 }]
 const platforms = [{
     img: git,
@@ -61,6 +65,6 @@ const development_technologies = [{
 }]
 
 
-export {programming_languages};
-export {development_technologies};
-export {platforms};
+export { programming_languages };
+export { development_technologies };
+export { platforms };

@@ -6,7 +6,7 @@ const all_experience = [{
     logo: reliableai,
     position: "UI & UX Intern",
     company: "thereliable.ai",
-    duration: "Mar 2024 -   Apr 2024",
+    duration: "Mar 2024 - Present",
     summary: ["Designed user-centric database chat interface software prioritizing intuitive interaction.",
         "Led end-to-end frontend and integration using APIs and Websockets for seamless user experience.",
         "Crafted landing page, effectively communicating the value and features of software to potential users."

@@ -1,3 +1,4 @@
+import EcommerceWebsite from './assets/images/EcommerceWebsite.png'
 import ReliableAILandingPage from './assets/images/reliableaiLandingPage.png'
 import GoogleKeep from './assets/images/GoogleKeep.png'
 import CurriculumDesignPortal from './assets/images/curriculumDesignPortal.png'
@@ -11,12 +12,21 @@ import Calculator from './assets/images/Calculator.png'
 
 const all_projects = [
     {
+        img: EcommerceWebsite,
+        liveLink: "https://shoppers-web.netlify.app/",
+        title: "Shoppers Website",
+        repoLink: "https://github.com/muskanmandil/Ecommerce-frontend",
+        desc: "An Ecommerce Website for clothes of all categories. Implemented Add to Cart functionality.",
+        tech: "React.js, Javascript, CSS"
+
+    },
+    {
         img: ReliableAILandingPage,
         liveLink: "https://bit.ly/3xvdcX3",
         title: "Reliable AI Landing Page",
         repoLink: "",
         desc: "Crafted landing page for the product website, effectively communicating the value and features of the software to potential users.",
-        tech:"UI/UX Design, Figma",
+        tech: "UI/UX Design, Figma",
     },
     {
         img: GoogleKeep,
@@ -57,7 +67,7 @@ const all_projects = [
         repoLink: "https://github.com/muskanmandil/Drum-Kit",
         desc: "A Drum Kit on which you can try out your beats, accessible from your keyboard. Have fun!!",
         tech: "HTML, CSS, Javascript"
-    }, 
+    },
     {
         img: restaurantWebsite,
         liveLink: "https://muskanmandil.github.io/Adare-Restaurant",
@@ -65,7 +75,7 @@ const all_projects = [
         repoLink: "https://github.com/muskanmandil/Adare-Restaurant",
         desc: "Featuring a fictional Restaurant with Google Maps integrated with theIr location.",
         tech: "HTML, CSS"
-    }, 
+    },
     {
         img: bikeRepairWebsite,
         liveLink: "https://muskanmandil.github.io/Roar-Bikes-Repair-Website",
@@ -73,7 +83,7 @@ const all_projects = [
         repoLink: "https://github.com/muskanmandil/Roar-Bikes-Repair-Website",
         desc: "A static website for a Bike Repair Shop containing all their information, services and how to contact them.",
         tech: "HTML, CSS"
-    }, 
+    },
     {
         img: Calculator,
         liveLink: "https://muskanmandil.github.io/Calculator",
