@@ -13,11 +13,11 @@ import Calculator from './assets/images/Calculator.png'
 const all_projects = [
     {
         img: EcommerceWebsite,
-        liveLink: "https://shoppers-web.netlify.app/",
+        liveLink: "https://shoppers-frontend.netlify.app",
         title: "Shoppers Website",
-        repoLink: "https://github.com/muskanmandil/Ecommerce-frontend",
-        desc: "An Ecommerce Website for clothes of all categories. Implemented Add to Cart functionality.",
-        tech: "React.js, Javascript, CSS"
+        repoLink: "https://github.com/muskanmandil/Ecommerce-Website",
+        desc: "An Ecommerce Website for clothes. My first full-stack project : Created APIs, Implemented user registration, Managed Database connection",
+        tech: "React.js, Express.js, MongoDB"
 
     },
     {
