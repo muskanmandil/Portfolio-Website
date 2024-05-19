@@ -3,10 +3,12 @@ import java from "./assets/icons/java.svg";
 import vscode from "./assets/icons/vscode.svg";
 import html from "./assets/icons/html.svg";
 import css from "./assets/icons/css.svg";
-import bootstrap from "./assets/icons/bootstrap.svg";
 import js from "./assets/icons/js.svg";
 import jquery from "./assets/icons/jquery.svg";
 import react from "./assets/icons/react.svg";
+import nodejs from "./assets/icons/nodejs.svg";
+import expressjs from "./assets/icons/expressjs.svg";
+import mongodb from "./assets/icons/mongodb.svg";
 import git from "./assets/icons/git.svg";
 import github from "./assets/icons/github.svg";
 import figma from "./assets/icons/figma.svg";
@@ -52,16 +54,24 @@ const development_technologies = [{
     name: "Javascript"
 },
 {
-    img: bootstrap,
-    name: "Bootstrap"
-},
-{
     img: jquery,
     name: "Jquery"
 },
 {
     img: react,
     name: "Reactjs"
+},
+{
+    img: nodejs,
+    name: "Nodejs"
+},
+{
+    img: expressjs,
+    name: "Expressjs"
+},
+{
+    img: mongodb,
+    name: "MongoDB"
 }]
 
 

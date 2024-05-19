@@ -1,3 +1,4 @@
+import buildstreaks from "./assets/images/buildstreaks.png"
 import EcommerceWebsite from './assets/images/EcommerceWebsite.png'
 import ReliableAILandingPage from './assets/images/reliableaiLandingPage.png'
 import GoogleKeep from './assets/images/GoogleKeep.png'
@@ -12,6 +13,15 @@ import Calculator from './assets/images/Calculator.png'
 
 const all_projects = [
     {
+        img: buildstreaks,
+        liveLink: "https://build-streaks.vercel.app/",
+        title: "Build Streaks",
+        repoLink: "https://github.com/muskanmandil/build-streaks",
+        desc: "A Full stack application gamifying DSA learning experience. Implemented features like gain XPs, streak building and leaderboard.",
+        tech: "React.js, Node.js, Express.js, MongoDB, UI/UX Design"
+
+    },
+    {
         img: EcommerceWebsite,
         liveLink: "https://shoppers-frontend.netlify.app",
         title: "Shoppers Website",
@@ -19,6 +29,14 @@ const all_projects = [
         desc: "An Ecommerce Website for clothes. My first full-stack project : Created APIs, Implemented user registration, Managed Database connection",
         tech: "React.js, Express.js, MongoDB"
 
+    },
+    {
+        img: CurriculumDesignPortal,
+        liveLink: "https://bit.ly/curriculum-portal",
+        title: "Curriculum Design Portal",
+        repoLink: "https://github.com/Dev-Sahani/AICTE_CURRICULUM_DESIGN_PORTAL",
+        desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer & frontend developer. Led design ideation sessions in collaboration with the team.",
+        tech: "UI/UX Design, Figma, React.js"
     },
     {
         img: ReliableAILandingPage,
@@ -35,14 +53,6 @@ const all_projects = [
         repoLink: "https://github.com/muskanmandil/Google-Keep-Clone",
         desc: "A replica of Google Keep Notes Application which allow users to create, edit and delete notes, mimicking the features of the original application.",
         tech: "HTML, CSS, Javascript"
-    },
-    {
-        img: CurriculumDesignPortal,
-        liveLink: "https://bit.ly/curriculum-portal",
-        title: "Curriculum Design Portal",
-        repoLink: "https://github.com/Dev-Sahani/AICTE_CURRICULUM_DESIGN_PORTAL",
-        desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer & frontend developer. Led design ideation sessions in collaboration with the team.",
-        tech: "UI/UX Design, Figma, React.js"
     },
     {
         img: Game2048,
