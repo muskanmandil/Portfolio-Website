@@ -35,8 +35,8 @@ const all_projects = [
         liveLink: "https://bit.ly/curriculum-portal",
         title: "Curriculum Design Portal",
         repoLink: "https://github.com/Dev-Sahani/AICTE_CURRICULUM_DESIGN_PORTAL",
-        desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer & frontend developer. Led design ideation sessions in collaboration with the team.",
-        tech: "UI/UX Design, Figma, React.js"
+        desc: "Ranked in Top 5 teams in SIH 2023. Contributed as UI/UX Designer. Led design ideation sessions in collaboration with the team.",
+        tech: "UI/UX Design, Figma"
     },
     {
         img: ReliableAILandingPage,

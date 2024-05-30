@@ -13,11 +13,11 @@ const all_experience = [{
     ]
 }, {
     logo: sih,
-    position: "Team 8bit Squad [UI/UX & Frontend]",
+    position: "Team 8bit Squad [UI/UX Designer]",
     company: "Smart India Hackathon 2023",
     duration: "Sep 2023 - Dec 2023",
     summary: ["Ranked among the Top 5 teams nationwide in Smart India Hackathon 2023.",
-        "Contributed as UI/UX Designer & frontend developer for AICTE’s Curriculum Design Portal (PS 1465).",
+        "Contributed as UI/UX Designer for AICTE’s Curriculum Design Portal (PS 1465).",
         `Led design ideation sessions and developed a comprehensive portal interface in collaboration with the team. (<a href="https://bit.ly/3IsFLH2" target="_blank">Prototype</a>)`
 
     ]
