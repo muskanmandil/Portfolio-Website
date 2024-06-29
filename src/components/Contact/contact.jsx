@@ -4,8 +4,7 @@ import emailjs from "@emailjs/browser";
 
 import linkedin from "../../assets/icons/linkedin.svg";
 import github from "../../assets/icons/github.svg";
-import instagram from "../../assets/icons/instagram.svg";
-import twitter from "../../assets/icons/twitter.svg";
+import leetcode from "../../assets/icons/leetcode.svg";
 
 const Contact = () => {
   const form = useRef();
@@ -77,11 +76,8 @@ const Contact = () => {
           <a href="https://github.com/muskanmandil" target="_blank" rel="noreferrer">
             <img src={github} alt="github" className="socialMediaIcon" />
           </a>
-          <a href="https://www.instagram.com/muskan.mandil/" target="_blank" rel="noreferrer">
-            <img src={instagram} alt="instagram" className="socialMediaIcon" />
-          </a>
-          <a href="https://twitter.com/muskanmandil" target="_blank" rel="noreferrer">
-            <img src={twitter} alt="twitter" className="socialMediaIcon" />
+          <a href="https://leetcode.com/u/muskan_mandil/" target="_blank" rel="noreferrer">
+            <img src={leetcode} alt="leetcode" className="socialMediaIcon" />
           </a>
         </div>
       </form>

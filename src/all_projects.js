@@ -39,14 +39,6 @@ const all_projects = [
         tech: "UI/UX Design, Figma"
     },
     {
-        img: ReliableAILandingPage,
-        liveLink: "https://bit.ly/3xvdcX3",
-        title: "Reliable AI Landing Page",
-        repoLink: "",
-        desc: "Crafted landing page for the product website, effectively communicating the value and features of the software to potential users.",
-        tech: "UI/UX Design, Figma",
-    },
-    {
         img: GoogleKeep,
         liveLink: "https://muskanmandil.github.io/Google-Keep-Clone",
         title: "Google Keep Clone",
@@ -61,6 +53,14 @@ const all_projects = [
         repoLink: "https://github.com/muskanmandil/2048-Game",
         desc: "Cloned the famous 2048 Game. Respond to arrow keys, and update score on every tile merge.",
         tech: "HTML, CSS, Javascript"
+    },
+    {
+        img: ReliableAILandingPage,
+        liveLink: "https://bit.ly/3xvdcX3",
+        title: "Reliable AI Landing Page",
+        repoLink: "",
+        desc: "Crafted landing page for the product website, effectively communicating the value and features of the software to potential users.",
+        tech: "UI/UX Design, Figma",
     },
     {
         img: todoList,
