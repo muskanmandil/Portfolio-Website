@@ -2,8 +2,8 @@ import React from "react";
 import "./skills.css";
 import {
   programming_languages,
-  development_technologies,
-  platforms,
+  web_development_technologies,
+  tools,
 } from "../../all_skills";
 import SkillCard from "../Skill Card/skillCard";
 
@@ -21,17 +21,17 @@ const Skills = () => {
         </div>
       </div>
       <div className="skillsTypeContainer">
-        <h3 className="skillsType">Development Technologies</h3>
+        <h3 className="skillsType">Web-development Technologies</h3>
         <div className="skillsWrapper">
-          {development_technologies.map((element,idx) => {
+          {web_development_technologies.map((element,idx) => {
             return <SkillCard key={idx} img={element.img} name={element.name} />;
           })}
         </div>
       </div>
       <div className="skillsTypeContainer">
-        <h3 className="skillsType">Platforms</h3>
+        <h3 className="skillsType">Tools</h3>
         <div className="skillsWrapper">
-          {platforms.map((element,idx) => {
+          {tools.map((element,idx) => {
             return <SkillCard key={idx} img={element.img} name={element.name} />;
           })}
         </div>

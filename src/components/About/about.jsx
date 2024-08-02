@@ -14,10 +14,10 @@ const About = () => {
       <div className="aboutText">
         <p className="hello">👋🏻 Hello I'm</p>
         <p className="myName">Muskan Mandil</p>
-        <p className="role">🎨DESIGNER + 💻DEVELOPER</p>
+        <p className="role">💻FULL-STACK DEVELOPER + 🎨UI/UX DESIGNER </p>
         <p className="aboutPara">
-          I love creating beautiful user interfaces and passionate towards
-          developing them. I am well versed in C++, front-end development and Figma.
+          {/* I am proficient in full-stack development with a solid understanding of in C++. I enjoy designing engaging UI/UX and developing them from scratch. */}
+          Senior @IET DAVV | SIH '23 Finalist | 2★@codechef
         </p>
         <div className="buttons">
           <a className="resumeBtn" href={MuskanMandil_Resume_2024} target="_blank" rel="noreferrer">

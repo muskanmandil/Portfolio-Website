@@ -7,7 +7,7 @@ const EducationDiv = (props) => {
       <div className="educationTextContent">
         <h1 className="degreeTitle">{props.degree}</h1>
         <h2 className="degreeInstitute">{props.institute}</h2>
-        <p className="degreeGrades">{props.grades}</p>
+        <p className="degreeGrades" dangerouslySetInnerHTML={{__html: props.grades}} />
       </div>
       <img src={props.logo} alt={props.institute} className="instituteLogo" />
     </div>

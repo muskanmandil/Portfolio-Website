@@ -4,7 +4,6 @@ import vscode from "./assets/icons/vscode.svg";
 import html from "./assets/icons/html.svg";
 import css from "./assets/icons/css.svg";
 import js from "./assets/icons/js.svg";
-import jquery from "./assets/icons/jquery.svg";
 import react from "./assets/icons/react.svg";
 import nodejs from "./assets/icons/nodejs.svg";
 import expressjs from "./assets/icons/expressjs.svg";
@@ -25,7 +24,7 @@ const programming_languages = [{
     img: sql,
     name: "SQL"
 }]
-const platforms = [{
+const tools = [{
     img: git,
     name: "Git"
 },
@@ -41,7 +40,7 @@ const platforms = [{
     img: figma,
     name: "Figma"
 }]
-const development_technologies = [{
+const web_development_technologies = [{
     img: html,
     name: "HTML"
 },
@@ -52,10 +51,6 @@ const development_technologies = [{
 {
     img: js,
     name: "Javascript"
-},
-{
-    img: jquery,
-    name: "Jquery"
 },
 {
     img: react,
@@ -76,5 +71,5 @@ const development_technologies = [{
 
 
 export { programming_languages };
-export { development_technologies };
-export { platforms };
+export { web_development_technologies };
+export { tools };
