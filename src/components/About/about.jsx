@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 
 import profileImg from "../../assets/images/profileImg.png";
 import downloadIcon from "../../assets/icons/download.svg";
-import MuskanMandil_Resume_2024 from "../../assets/MuskanMandil_Resume_2024.pdf";
 import sendIcon from "../../assets/icons/send.svg";
 
 const About = () => {
@@ -14,13 +13,13 @@ const About = () => {
       <div className="aboutText">
         <p className="hello">👋🏻 Hello I'm</p>
         <p className="myName">Muskan Mandil</p>
-        <p className="role">💻FULL-STACK DEVELOPER + 🎨UI/UX DESIGNER </p>
+        <p className="role">💻SOFTWARE ENGINEER + 🎨UI/UX DESIGNER </p>
         <p className="aboutPara">
           {/* I am proficient in full-stack development with a solid understanding of in C++. I enjoy designing engaging UI/UX and developing them from scratch. */}
-          Senior @IET DAVV | SIH '23 Finalist | 2★@codechef
+          Senior @IET DAVV | Full-Stack Developer @BitcoinPe | SIH '23 Finalist
         </p>
         <div className="buttons">
-          <a className="resumeBtn" href={MuskanMandil_Resume_2024} target="_blank" rel="noreferrer">
+          <a className="resumeBtn" href="https://bit.ly/muskan-mandil-resume" target="_blank" rel="noreferrer">
             Resume
             <img
               src={downloadIcon}

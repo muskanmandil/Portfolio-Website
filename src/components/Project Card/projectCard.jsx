@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
       <div className="projectCardHeader">
         <h2 className="projectTitle">{props.title}</h2>
         <a href={props.repoLink} className="projectRepoLink" target="_blank" rel="noreferrer">
-          {props.repoLink.trim()!=="" ? "Github" : ""}
+          {props.repoLink.trim()!=="" ? "GitHub" : ""}
         </a>
       </div>
       <p className="projectDesc">{props.desc}</p>

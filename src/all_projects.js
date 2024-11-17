@@ -1,4 +1,5 @@
 import buildstreaks from "./assets/images/buildstreaks.png"
+import campusrecruit from "./assets/images/campusrecruit.jpg"
 import EcommerceWebsite from './assets/images/EcommerceWebsite.png'
 import ReliableAILandingPage from './assets/images/reliableaiLandingPage.png'
 import GoogleKeep from './assets/images/GoogleKeep.png'
@@ -13,6 +14,15 @@ import Calculator from './assets/images/Calculator.png'
 
 const all_projects = [
     {
+        img: campusrecruit,
+        liveLink: "https://github.com/muskanmandil/campus-recruit",
+        title: "Campus Recruit",
+        repoLink: "https://github.com/muskanmandil/campus-recruit",
+        desc: "(Ongoing) A campus recruitment platform supporting students with a profile system enabling them to apply in 1-click with resume submission.",
+        tech: "React.js, Material UI, Node.js, Express.js, PostgreSQL"
+
+    },
+    {
         img: buildstreaks,
         liveLink: "https://build-streaks.vercel.app/",
         title: "Build Streaks",
@@ -23,7 +33,7 @@ const all_projects = [
     },
     {
         img: EcommerceWebsite,
-        liveLink: "https://shoppers-frontend.netlify.app",
+        liveLink: "https://shoppers-nine.vercel.app/",
         title: "Shoppers Website",
         repoLink: "https://github.com/muskanmandil/Ecommerce-Website",
         desc: "An Ecommerce Website for clothes. My first full-stack project : Created APIs, Implemented user registration, Managed Database connection",
