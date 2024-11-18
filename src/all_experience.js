@@ -5,21 +5,21 @@ import bitcoinpe from "./assets/icons/bitcoinpe.jpeg"
 
 const all_experience = [
     {
-        logo:bitcoinpe,
+        logo: bitcoinpe,
         position: "Full Stack Developer Intern",
         company: "BitcoinPe",
-        duration: "Oct. 2024 - Present",
-        summary: ["Built and optimized UI for an INR lending platform with Bitcoin collateral, enhancing user experience.",
-            "Integrated APIs, linked KYC details for 100% user verification, and managed end-to-end flow from loan request to fund transfer.",
-            "Currently implementing payouts API; making product ready for pilot testing with 20-25 users."
+        duration: "Oct. 2024 - Nov. 2024",
+        summary: ["Built and optimized UI for an INR lending platform offering loans for up to 360 days using Bitcoin as collateral, enhancing user experience.",
+            "Implemented the complete KYC verification process, covering everything from user detail submission to final admin approval.",
+            "Managed the end-to-end flow from loan request to fund transfer, defining 10+ status codes for various loan process stages."
         ]
     }, {
         logo: reliableai,
         position: "UI & UX Intern",
         company: "thereliable.ai",
         duration: "Mar. 2024 - Jun. 2024",
-        summary: ["Designed and implemented a user-friendly dashboard, facilitating database connectivity with up to 3 databases.",
-            "Integrated the dashboard with backend APIs and WebSocket-based chat functionality, building the first MVP.",
+        summary: ["Designed and executed  a user-friendly dashboard that enabled seamless connectivity and interaction with up to 3 databases.",
+            "Integrated the dashboard with backend APIs and WebSocket-based chat functionality, successfully delivered the first MVP.",
             "Accepted text feedback for model training and displayed running SQL queries, enabling users to submit corrections for accurate outputs.",
             "Empowered data analysts to generate and provide unique time-sensitive chat links (valid for 72 hours) to clients."
         ]
@@ -29,9 +29,9 @@ const all_experience = [
         company: "Smart India Hackathon 2023",
         duration: "Sep. 2023 - Dec. 2023",
         summary: ["Contributed as a UI/UX Designer in addressing an AICTE problem statement during a 36-hour hackathon.",
-            "Designed a collaborative portal for educational experts and industry leaders to draft and refine curriculums.",
-            `Led ideation sessions with a team of 6 to define key features such as user roles, model curriculum templates, a resource library, and analytics.(<a href="https://bit.ly/3IsFLH2" target="_blank">Prototype</a>)`,
-            "Integrated a mobile application to collect feedback from professors and (HODs) ensuring annual updates to the curriculum."
+            "Designed a collaborative portal for educational experts and industry leaders to draft curriculums by forming temporary committees.",
+            `Led ideation sessions with a team of 6 to define key features including user roles, curriculum templates, and resource library.(<a href="https://bit.ly/3IsFLH2" target="_blank">Prototype</a>)`,
+            "Integrated a mobile application to collect feedback from professors across 4,000+ institutes in India for annual curriculum updates."
         ]
     }, {
         logo: cohesive,

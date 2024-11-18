@@ -15,8 +15,7 @@ const About = () => {
         <p className="myName">Muskan Mandil</p>
         <p className="role">💻SOFTWARE ENGINEER + 🎨UI/UX DESIGNER </p>
         <p className="aboutPara">
-          {/* I am proficient in full-stack development with a solid understanding of in C++. I enjoy designing engaging UI/UX and developing them from scratch. */}
-          Senior @IET DAVV | Full-Stack Developer @BitcoinPe | SIH '23 Finalist
+          Senior @IET DAVV | Full-Stack Developer | SIH '23 Finalist
         </p>
         <div className="buttons">
           <a className="resumeBtn" href="https://bit.ly/muskan-mandil-resume" target="_blank" rel="noreferrer">
