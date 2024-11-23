@@ -1,43 +1,86 @@
 #projects {
-    /* max-height: calc(100vh - 5rem); */
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    padding: 4rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    gap: 2rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.projectsTitle{
-    font-size: 3rem;
-    color: var(--900);
-    text-align: center;
-    font-weight: 500;
+.projectsTitle {
+  font-size: 3rem;
+  color: var(--900);
+  text-align: center;
+  font-weight: 500;
 }
 
-.projectsCardWrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
+.scrollContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  justify-content: center;
 }
 
-::-webkit-scrollbar{
-    display: none;
+.projectsCardWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  width: calc(100% - 4rem);
+  /* padding: 0 1rem; */
 }
 
-@media screen and (max-width: 540px){
-    #projects{
-        gap: 1.5rem;
-    }
+.scrollBtn {
+  border: none;
+  font-size: 2rem;
+  opacity: 50%;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--900);
+  background: var(--300);
+}
 
-    .projectsTitle{
-        font-size: 2.5rem;
-    }
-    
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollBtn.left {
+  position: absolute;
+  left: 0.5rem;
+  z-index: 1;
+}
+
+.scrollBtn.right {
+  position: absolute;
+  right: 0.5rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 540px) {
+  #projects {
+    gap: 1.5rem;
+  }
+
+  .projectsTitle {
+    font-size: 2.5rem;
+  }
+
+  .scrollBtn {
+    font-size: 1.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
