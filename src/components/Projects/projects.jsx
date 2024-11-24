@@ -15,7 +15,7 @@ const Projects = () => {
     } else if (screenWidth <= 1024) {
       return screenWidth * 0.5;
     } else if (screenWidth <= 1280) {
-      return screenWidth * 0.27;
+      return screenWidth * 0.3;
     }else{
       return 384;
     }
